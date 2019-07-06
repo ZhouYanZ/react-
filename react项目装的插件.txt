@@ -1,0 +1,17 @@
+yarn add redux react-redux react-router-dom styled-components react-loadable react-thunk 
+
+与之所对应的是：
+redux：第三方状态管理器。仓库
+
+react-redux：基于redux适配react的一套工具包，前提是要有redux
+
+react-router-dom：react的路由器
+
+sytled-components : 定义组件的样式
+
+react-loadable : 实现路由的懒加载，就是按需加载组件
+
+react-thunk：react中间件，增强dispatch方法，做异步请求
+
+
+

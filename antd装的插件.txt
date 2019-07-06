@@ -1,0 +1,20 @@
+如果需要使用antd UI库，安装下面插件
+
+//先安装antd
+
+yarn add antd 
+
+yarn add react-app-rewired customize-cra babel-plugin-import less less-loader styled-components
+
+之后更改package.json文件
+
+/* package.json */
+
+"scripts": {
+"start": "react-app-rewired start",
+"build": "react-app-rewired build",
+"test": "react-app-rewired test",
+}
+
+里面的eject可以删除掉
+
